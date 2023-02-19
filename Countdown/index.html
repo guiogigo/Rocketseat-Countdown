@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Countdown</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="content">
+      <div class="countdown">
+        <h1 id="countdown-title">
+          Ready to launch in...
+        </h1>
+
+        <div class="timer" id="timer">
+          <div class="Days">
+            <span class="timer-span">Dias</span>
+            <p class="timer-value" id="daysLeft">08</p>
+          </div>
+
+          <p class="timer-separator">:</p>
+
+          <div class="Hours">
+            <span class="timer-span">Horas</span>
+            <p class="timer-value" id="hoursLeft">12</p>
+          </div>
+
+          <p class="timer-separator">:</p>
+
+          <div class="Minutes">
+            <span class="timer-span">Minutos</span>
+            <p class="timer-value" id="minutesLeft">44</p>
+          </div>
+
+          <p class="timer-separator">:</p>
+
+          <div class="Seconds">
+            <span class="timer-span">Segundos</span>
+            <p class="timer-value" id="secondsLeft">28</p>
+          </div>
+        </div>
+
+        <p class="description">
+          Inscreva-se para saber mais sobre o lançamento
+        </p>
+
+        <button>
+          Inscreva-se
+        </button>
+      </div>
+
+      <div class="rocket">
+        <img src="./images/rocket.svg" alt="Imagem de foguete pronto para decolagem">
+      </div>
+
+      <img class="top-wave" src="./images/top-image.svg" alt="Nuvem">
+      <img class="bottom-wave" src="./images/bottom-image.svg" alt="Nuvem">
+    </div>
+  </main>
+  
+</body>
+</html>
